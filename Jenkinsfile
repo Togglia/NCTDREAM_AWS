@@ -4,10 +4,10 @@ pipeline {
     environment {
         AWS_DEFAULT_REGION = 'ap-northeast-2'
         AWS_ACCOUNT_ID = '905418133242'
-        ECR_REPOSITORY = 'nct-web'
+        ECR_REPOSITORY = 'nct-was'
         IMAGE_TAG = "${BUILD_NUMBER}"
         DOCKERFILE_PATH = 'Dockerfile'
-        DOCKER_IMAGE_NAME = 'nct-web'
+        DOCKER_IMAGE_NAME = 'nct-was'
     }
 
     stages {
