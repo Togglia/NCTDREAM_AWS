@@ -21,8 +21,6 @@ spec:
         image: 905418133242.dkr.ecr.ap-northeast-2.amazonaws.com/nct-was:3
         ports:
         - containerPort: 4000
-      imagePullSecrets:
-      - name: registry-credential-back
 ---
 apiVersion: v1
 kind: Service
