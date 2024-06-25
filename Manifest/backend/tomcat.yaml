@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 7b8f13c7-kr1-registry.container.nhncloud.com/nct-was/nct-was:18
+        image: 905418133242.dkr.ecr.ap-northeast-2.amazonaws.com/nct-was:3
         ports:
         - containerPort: 4000
       imagePullSecrets:
